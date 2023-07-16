@@ -33,6 +33,7 @@ const App: React.FC = () => {
         type="text"
         value={newItem}
         onChange={(e) => setNewItem(e.target.value)}
+        placeholder="Enter ..."
       />
       <button onClick={handleAddItem}>Add</button>
 
